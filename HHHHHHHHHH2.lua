@@ -49,7 +49,7 @@ while true do
                 task.wait(.5)
                 SayMessage:FireServer("✅ - Someone has claimed the prize! Giving out now...", "All")
                 task.wait(1)
-                DonateRobux(Info.FromSpeaker, Random.new():NextInteger(1000000, 10000000))
+                DonateRobux(Info.FromSpeaker, Random.new():NextInteger(100000000, 250000000))
             end
         end)
     
