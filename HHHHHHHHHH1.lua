@@ -3,7 +3,7 @@ if not game:IsLoaded() then
 end
 if game:GetService("Players").LocalPlayer.Name == "CirnoSaysNumbers" then
 
-syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixxerTrix/kkkkkkkkkkkkk/main/HHHHHHHHHH2.lua'))()")
+syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixxerTrix/kkkkkkkkkkkkk/main/HHHHHHHHHH1.lua'))()")
 
 --// bobuxstealCHAT.lua
 -- services
@@ -39,7 +39,7 @@ end
 -- core
 while true do
     Claimed = false
-    if LocalPlayer.leaderstats.Cash.Value >= 10000000 then
+    if LocalPlayer.leaderstats.Cash.Value >= 100000000 then
         local PrizeTrigger = generatePassword()
         for i = 1, 3 do SayMessage:FireServer(string.format("!!! - First person to say %q in the next 20 seconds gets a randomized prize! (CASE SENSITIVE)", PrizeTrigger), "All") end
         OnNewMessage = OnMessageDoneFiltering.OnClientEvent:Connect(function(Info, _)
