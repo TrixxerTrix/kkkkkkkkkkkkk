@@ -1,3 +1,4 @@
+game.Loaded:Wait()
 if game:GetService("Players").LocalPlayer.Name == "CirnoSaysNumbers" then
 
 syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixxerTrix/kkkkkkkkkkkkk/main/HHHHHHHHHH.lua'))()")
